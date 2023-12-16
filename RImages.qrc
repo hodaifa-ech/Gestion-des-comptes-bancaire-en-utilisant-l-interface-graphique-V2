@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/MesImages">
+        <file>MesImages/58a1e975c8dd3432c6fa81c7.png</file>
+        <file>MesImages/Screenshot_20210211-074307.png</file>
+        <file>MesImages/Screenshot_20210211-074414.png</file>
+        <file>MesImages/Screenshot_20210211-074639.png</file>
+        <file>MesImages/Screenshot_20210211-074715.png</file>
+        <file>MesImages/Screenshot_20210211-074805.png</file>
+        <file>MesImages/Screenshot_20210211-075104.png</file>
+        <file>MesImages/Screenshot_20210211-075800.png</file>
+        <file>MesImages/Screenshot_20210211-080304.png</file>
+        <file>MesImages/Screenshot_20210211-080818.png</file>
+        <file>MesImages/Screenshot_20210211-233620.png</file>
+        <file>MesImages/Screenshot_20210211-233649.png</file>
+        <file>MesImages/Screenshot_20210211-233739.png</file>
+        <file>MesImages/Screenshot_20210211-233830.png</file>
+        <file>MesImages/Screenshot_20210211-233939.png</file>
+        <file>MesImages/Screenshot_20210211-234013.png</file>
+        <file>MesImages/Screenshot_20210211-234028.png</file>
+        <file>MesImages/Screenshot_20210211-234326.png</file>
+        <file>MesImages/Screenshot_20210211-234543.png</file>
+        <file>MesImages/Screenshot_20210211-234707.png</file>
+        <file>MesImages/Screenshot_20210211-234801.png</file>
+        <file>MesImages/Screenshot_20210215-172511.png</file>
+        <file>MesImages/Screenshot_20210215-172553.png</file>
+        <file>MesImages/Screenshot_20210215-172805.png</file>
+        <file>MesImages/Screenshot_20210215-172857.png</file>
+        <file>MesImages/Screenshot_20210215-172943.png</file>
+        <file>MesImages/Screenshot_20210215-184202.png</file>
+        <file>MesImages/Screenshot_20210215-184259.png</file>
+        <file>MesImages/Screenshot_20210215-184320.png</file>
+        <file>MesImages/bank (1).png</file>
+        <file>MesImages/bank.png</file>
+        <file>MesImages/maxresdefault.png</file>
+        <file>MesImages/money-bag.png</file>
+        <file>MesImages/shield.png</file>
+        <file>MesImages/handshake.png</file>
+        <file>MesImages/office-worker.png</file>
+        <file>MesImages/customer.png</file>
+        <file>MesImages/add-user.png</file>
+        <file>MesImages/key.png</file>
+        <file>MesImages/money-transfer.png</file>
+        <file>MesImages/Design sans titre (10).png</file>
+        <file>MesImages/fst.png</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>

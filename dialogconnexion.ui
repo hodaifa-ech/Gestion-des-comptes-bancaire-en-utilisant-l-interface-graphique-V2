@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogConnexion</class>
+ <widget class="QDialog" name="DialogConnexion">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>412</width>
+    <height>271</height>
+   </rect>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#DialogConnexion
+{
+background: qlineargradient(spread:reflect, x1:0.0452261, y1:0, x2:0.517588, y2:0.517, stop:0.0502513 rgba(70, 40, 190, 255), stop:0.839196 rgba(180, 110, 90, 255));
+}</string>
+  </property>
+  <widget class="QRadioButton" name="worker">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>170</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#worker
+{
+	font: 15pt &quot;Copperplate Gothic Bold&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Bank Worker</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="customer">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>110</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#customer
+{
+font: 15pt &quot;Copperplate Gothic Bold&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Customer</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>391</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="connect">
+   <property name="geometry">
+    <rect>
+     <x>284</x>
+     <y>230</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#connect
+{
+	
+	font: 8.5pt &quot;Batang&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Connect</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#cancel
+{
+	font: 8.5pt &quot;Batang&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>30</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Segoe Print&quot;;</string>
+   </property>
+   <property name="text">
+    <string>CONNECT AS</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>cancel</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogConnexion</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>65</x>
+     <y>142</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>115</x>
+     <y>153</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

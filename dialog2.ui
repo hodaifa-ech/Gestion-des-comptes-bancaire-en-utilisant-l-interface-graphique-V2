@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog2</class>
+ <widget class="QDialog" name="Dialog2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>320</width>
+    <height>260</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Dialog2
+{
+background: qlineargradient(spread:reflect, x1:0.0452261, y1:0, x2:0.517588, y2:0.517, stop:0.0502513 rgba(70, 40, 190, 255), stop:0.839196 rgba(180, 110, 90, 255));
+}</string>
+  </property>
+  <widget class="QLabel" name="labelIdentifiant">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#labelIdentifiant
+{
+	color:rgb(227, 240, 203);
+	
+	font: 12pt &quot;Modern No. 20&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>WORKER'S ID :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMotdepasse">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#labelMotdepasse
+{
+	color:rgb(227, 240, 203);
+	font: 12pt &quot;Modern No. 20&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>PASSWORD :</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>301</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>220</y>
+     <width>301</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="cancel">
+      <property name="styleSheet">
+       <string notr="true">#cancel
+{
+font: 8.5pt &quot;Batang&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="quit">
+      <property name="styleSheet">
+       <string notr="true">#quit
+{
+font: 8.5pt &quot;Batang&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>Quit App</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="login">
+      <property name="styleSheet">
+       <string notr="true">#login
+{
+font: 8.5pt &quot;Batang&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>Login</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLineEdit" name="workerId">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>301</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Copperplate Gothic Bold&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="password">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>160</y>
+     <width>301</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Copperplate Gothic Bold&quot;;</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>321</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 900 italic 18pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>INTERFACE CONNEXION</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>cancel</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog2</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>76</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>129</x>
+     <y>259</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogLogin</class>
+ <widget class="QDialog" name="DialogLogin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>329</width>
+    <height>308</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Login Interface</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="RImages.qrc">
+    <normaloff>:/MesImages/MesImages/Screenshot_20210215-172805.png</normaloff>:/MesImages/MesImages/Screenshot_20210215-172805.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#DialogLogin
+{
+	
+}</string>
+  </property>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>311</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="loginInterface">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>311</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Copperplate Gothic Bold&quot;;</string>
+   </property>
+   <property name="title">
+    <string>LOGIN INTERFACE</string>
+   </property>
+   <widget class="QLabel" name="labelIdentifiant">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#labelIdentifiant
+{
+	
+	
+	color: rgb(255, 39, 1);
+	
+	font: 10pt &quot;Copperplate Gothic Bold&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>ACCOUNT NUMBER :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelMotdepasse">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#labelMotdepasse
+{
+		color: rgb(255, 39, 1);
+
+	font: 10pt &quot;Copperplate Gothic Bold&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>PASSWORD :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="accountNumber">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>49</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;Copperplate Gothic Bold&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="password">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;Copperplate Gothic Bold&quot;;</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>61</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/MesImages/MesImages/shield.png);</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>270</y>
+     <width>311</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="cancel">
+      <property name="styleSheet">
+       <string notr="true">#cancel
+{
+	font: 8.5pt &quot;Batang&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>cancle </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="quit">
+      <property name="styleSheet">
+       <string notr="true">#quit
+{	
+	font: 8.5pt &quot;Batang&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>Quit App</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="login">
+      <property name="styleSheet">
+       <string notr="true">#login
+{	
+	font: 8.5pt &quot;Batang&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>Login</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="RImages.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>cancel</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogLogin</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>48</x>
+     <y>285</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>250</x>
+     <y>198</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog1</class>
+ <widget class="QDialog" name="Dialog1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>369</width>
+    <height>239</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Login Or Create a new account</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="RImages.qrc">
+    <normaloff>:/MesImages/MesImages/Screenshot_20210211-233649.png</normaloff>:/MesImages/MesImages/Screenshot_20210211-233649.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Dialog1
+{
+color:rgb(0, 0, 72);
+}</string>
+  </property>
+  <widget class="QPushButton" name="quit">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>210</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#quit
+{	
+font: 8.5pt &quot;Batang&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Quit App</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>210</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#cancel
+{	
+font: 8.5pt &quot;Batang&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>0</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/MesImages/MesImages/handshake.png);</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>349</width>
+     <height>3</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="login">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>349</width>
+     <height>49</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connect to your account&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/* Style pour le bouton Filiers - Contour transparent */
+#login {
+    background: none; /* Fond transparent */
+    /* Couleur du texte bleu */
+	color: rgb(0, 0, 0);
+    padding: 11px 20px; /* Espacement autour du texte */
+    border: 2px solid #3498db; /* Contour bleu */
+    border-radius: 22px; /* Coins arrondis */
+    font: 12pt &quot;Copperplate Gothic Bold&quot;; /* Police sans-serif moderne */
+    cursor: pointer; /* Curseur pointer au survol */
+    transition: background 0.3s ease, color 0.3s ease; /* Animation de transition sur la couleur de fond et la couleur du texte */
+}
+
+/* Effet de survol pour le bouton Filiers */
+#login:hover {
+    background: rgba(52, 152, 219, 0.1); /* Fond transparent avec une teinte bleue légère au survol */
+    color: #0056b3; /* Couleur du texte bleu foncé au survol */
+}
+
+/* Effet de pression pour le bouton Filiers */
+#login:active {
+    background: rgba(52, 152, 219, 0.2); /* Fond transparent avec une teinte bleue légère lorsqu'appuyé */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Légère ombre lorsqu'appuyé */
+    transform: translateY(2px); /* Légère translation vers le bas pour l'effet de pression */
+}</string>
+   </property>
+   <property name="text">
+    <string>LOGIN</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="newCount">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>349</width>
+     <height>49</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Create a new BLB account&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/* Style pour le bouton Filiers - Contour transparent */
+#newCount {
+    background: none; /* Fond transparent */
+    /* Couleur du texte bleu */
+	color: rgb(0, 0, 0);
+    padding: 11px 20px; /* Espacement autour du texte */
+    border: 2px solid #3498db; /* Contour bleu */
+    border-radius: 22px; /* Coins arrondis */
+    font: 12pt &quot;Copperplate Gothic Bold&quot;; /* Police sans-serif moderne */
+    cursor: pointer; /* Curseur pointer au survol */
+    transition: background 0.3s ease, color 0.3s ease; /* Animation de transition sur la couleur de fond et la couleur du texte */
+}
+
+/* Effet de survol pour le bouton Filiers */
+#newCount:hover {
+    background: rgba(52, 152, 219, 0.1); /* Fond transparent avec une teinte bleue légère au survol */
+    color: #0056b3; /* Couleur du texte bleu foncé au survol */
+}
+
+/* Effet de pression pour le bouton Filiers */
+#newCount:active {
+    background: rgba(52, 152, 219, 0.2); /* Fond transparent avec une teinte bleue légère lorsqu'appuyé */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Légère ombre lorsqu'appuyé */
+    transform: translateY(2px); /* Légère translation vers le bas pour l'effet de pression */
+}</string>
+   </property>
+   <property name="text">
+    <string>CREATE NEW ACCOUNT</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="RImages.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>cancel</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog1</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>58</x>
+     <y>230</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>111</x>
+     <y>242</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

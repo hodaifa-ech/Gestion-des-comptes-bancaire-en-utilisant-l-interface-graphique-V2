@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow0</class>
+ <widget class="QMainWindow" name="MainWindow0">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>550</width>
+    <height>351</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FST BANK</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="RImages.qrc">
+    <normaloff>:/MesImages/MesImages/bank.png</normaloff>:/MesImages/MesImages/bank.png</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image: url(:/MesImages/MesImages/maxresdefault.png);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="logon0">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>280</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#logon0 {
+  border-width: 7px;
+  border-color: rgb(255, 0, 0);
+  border-radius: 5px;
+  border-style: solid; /* Added border style */
+  border-image: none;
+	font: 700 italic 10pt &quot;Segoe UI&quot;;
+  color: rgb(255, 255, 255);
+  border: 2px solid white; /* White border */
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Log On</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="quit0">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>280</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#quit0
+{
+	  border-width: 7px;
+  border-color: rgb(255, 0, 0);
+  border-radius: 5px;
+  border-style: solid; /* Added border style */
+  border-image: none;
+  
+	font: 700 italic 10pt &quot;Segoe UI&quot;;
+  color: rgb(255, 255, 255);
+   border: 2px solid white; 
+}</string>
+    </property>
+    <property name="text">
+     <string>Quit App</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="aboutB">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>280</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;More informations about B-BANK&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#aboutB {
+  border-width: 7px;
+  border-color: rgb(255, 0, 0);
+  border-radius: 5px;
+  border-style: solid; /* Added border style */
+  border-image: none;
+  
+	font: 700 italic 10pt &quot;Segoe UI&quot;;
+  color: rgb(255, 255, 255);
+   border: 2px solid white; 
+}</string>
+    </property>
+    <property name="text">
+     <string>About</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>60</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width: 7;
+	border-color: rgb(255, 0, 0);
+	border-radius: 5;
+	border-image: none;
+font: 32pt &quot;Freestyle Script&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>FST BANK</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>0</y>
+      <width>131</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/MesImages/MesImages/Design sans titre (10).png);</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView_2">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>0</y>
+      <width>161</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/MesImages/MesImages/fst.png);</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>550</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="RImages.qrc"/>
+ </resources>
+ <connections/>
+</ui>
